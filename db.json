@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "name": "bandolera ",
+      "price": "110.000",
+      "id": "1"
+    },
+    {
+      "name": "bolso de playa",
+      "price": "35.000",
+      "id": "2"
+    },
+    {
+      "name": "porta celulares(de cuero)",
+      "price": "45.000",
+      "id": "3"
+    },
+    {
+      "name": "cartera xl",
+      "price": "80.000",
+      "id": "4"
+    },
+    {
+      "name": "cartera de cuero",
+      "price": "150.000",
+      "id": "5"
+    },
+    {
+      "name": "cartera de cuerina",
+      "price": "135.000",
+      "id": "6"
+    },
+    {
+      "id": "5e68",
+      "name": "",
+      "price": ""
+    }
+  ]
+}

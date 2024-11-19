@@ -1,0 +1,178 @@
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Fondo negro */
+  color: #FFD700; /* Texto dorado */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Logo */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; /* Gris oscuro para contrastar */
+  color: #FFD700; /* Texto dorado */
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+/* Heading Styling */
+h2 {
+  color: #FFD700; /* Encabezados en dorado */
+  font-size: 2rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  border-bottom: 2px solid #FFD700;
+  padding-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+  background-color: #333; /* Fondo gris oscuro para formularios */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  color: #FFD700;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #FFD700; /* Borde dorado */
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #222; /* Fondo oscuro para inputs */
+  color: #FFD700;
+}
+
+/* Estilo General para Botones */
+button {
+  background-color: #FFD700; /* Fondo dorado */
+  color: #000; /* Texto negro */
+  border: 2px solid #FFD700;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px; /* Bordes ligeramente más redondeados */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #000; /* Fondo negro al pasar el mouse */
+  color: #FFD700; /* Texto dorado */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.6); /* Sombra más intensa */
+  transform: translateY(-2px); /* Efecto de "flotar" */
+}
+
+/* Botones en Listas del Carrito */
+li button {
+  padding: 8px 12px; /* Tamaño ajustado para el contexto */
+  font-size: 0.9rem;
+}
+
+/* Botones en Productos Disponibles */
+.product-info button {
+  width: 100%; /* Botones ocupan todo el ancho */
+  padding: 10px; /* Más espacio para mejor visualización */
+  font-size: 1rem;
+  margin: 10px 0;
+  background-color: #FFD700;
+}
+
+.product-info button:hover {
+  background-color: #333; /* Hover gris oscuro */
+  color: #FFD700; /* Texto dorado */
+}
+
+/* Filter Input */
+input[type="text"] {
+  width: 200px;
+  background-color: #222;
+  color: #FFD700;
+}
+
+/* Notification Style */
+.error {
+  background-color: #FFD700;
+  color: #000;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Cart Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #222;
+  color: #FFD700;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Available Products Section */
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.product {
+  list-style: none;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #FFD700; /* Borde dorado */
+  border-radius: 8px;
+  background-color: #333; /* Fondo oscuro */
+}
+
+.product-info {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.product-info h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.product-info p {
+  font-size: 1rem;
+  color: #FFD700; /* Texto dorado */
+}
+
+.product-image {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
